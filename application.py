@@ -660,7 +660,6 @@ def customerlog():
 # Function for pytest
 def calculate_balance(current_balance, transaction_amount):
     return current_balance + transaction_amount
-
 # Main
 if __name__ == '__main__':
     application.secret_key = 'super_secret_key'
