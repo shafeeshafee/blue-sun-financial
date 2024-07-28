@@ -665,5 +665,5 @@ def calculate_balance(current_balance, transaction_amount):
 if __name__ == '__main__':
     application.secret_key = 'super_secret_key'
     application.debug = True
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 8000))
     application.run(host='0.0.0.0', port=port)
