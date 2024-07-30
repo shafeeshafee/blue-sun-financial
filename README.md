@@ -1,5 +1,7 @@
 # Blue Sun Financial - CI/CD Pipeline Project
 
+<img height="300" width="300" src="static/images/readme-images/blue-sun-teaser.png" />
+
 ## Overview
 
 The purpose is to demo a minimal implementation of a CI/CD pipeline for Blue Sun Financial (a fake retail bank) including deploying it to the cloud. The project shows the integration of tools and services such as: Jenkins, EC2, and Elastic Beanstalk.
@@ -40,3 +42,7 @@ The purpose is to demo a minimal implementation of a CI/CD pipeline for Blue Sun
      - Stage 2: This tells Jenkins to get the code from the GitHub repo I defined (my forked repo)
      - Stage 3: Sets up a Python virtual environment (venv) and installs all the necessary packages and dependencies of the project’s repo.
      - Stage 4: Activates the virtual environment the Build stage set up for us. Runs any test files specified, and documents the results in an file called `results.xml`
+
+<br/>
+
+![alt text](/static/images/readme-images/image.png)
