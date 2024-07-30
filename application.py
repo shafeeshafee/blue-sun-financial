@@ -498,7 +498,7 @@ def pdf_xl_statement(acc_id=None,ftype=None):
                     
                     # code for setting header
                     pdf.set_font('Times','B',16.0) 
-                    pdf.cell(page_width, 0.0, "Retail Banking", align='C')
+                    pdf.cell(page_width, 0.0, "Blue Sun Financial", align='C')
                     pdf.ln(10)
 
                     # code for Showing account id
