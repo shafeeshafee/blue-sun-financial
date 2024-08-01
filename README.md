@@ -6,10 +6,12 @@
 
 The purpose is to demo a minimal implementation of a CI/CD (Continuous Integration and Continuous Deployment) pipeline for Blue Sun Financial--a fictional retail bank--including deploying it to the cloud. This minimal project showcases the integration of various tools including Jenkins, Amazon EC2, and AWS Elastic Beanstalk for a Python-based web application.
 
+<div style="display: flex; justify-content: center; padding-top: 10px">
 <img height="50" width="50" src="https://www.svgrepo.com/show/374016/python.svg" />
 <img height="50" width="50" src="https://www.svgrepo.com/show/373699/jenkins.svg" />
 <img height="50" width="50" src="https://www.svgrepo.com/show/373576/elasticbeanstalk.svg" />
 <img height="50" width="50" src="https://www.svgrepo.com/show/448268/aws-ec2.svg" />
+</div>
 
 ## Steps
 
