@@ -4,7 +4,7 @@
 
 ## Overview
 
-The purpose is to demo a minimal implementation of a CI/CD (Continuous Integration and Continuous Deployment) pipeline for Blue Sun Financial--a fictional retail bank--including deploying it to the cloud. This minimal project showcases the integration of various tools including Jenkins, Amazon EC2, and AWS Elastic Beanstalk for a Python-based web application.
+The purpose is to demo a minimal implementation of a CI/CD (Continuous Integration and Continuous Deployment) pipeline for Blue Sun Financial―a fictional retail bank―including deploying it to the cloud. This minimal project showcases the integration of various tools including Jenkins, Amazon EC2, and AWS Elastic Beanstalk for a Python-based web application.
 
 <div style="display: flex; justify-content: center; padding-top: 10px">
 <img height="50" width="50" src="https://www.svgrepo.com/show/374016/python.svg" />
@@ -47,10 +47,10 @@ The purpose is to demo a minimal implementation of a CI/CD (Continuous Integrati
 4. **Build Process**:
    - Triggered the first build, which completed successfully.
    - Analyzed the build stages:
-     - Stage 1: Starts the process.
-     - Stage 2: This tells Jenkins to get the code from the GitHub repo I defined (my forked repo)
-     - Stage 3: Sets up a Python virtual environment (venv) and installs all the necessary packages and dependencies of the project’s repo.
-     - Stage 4: Activates the virtual environment the Build stage set up for us. Runs any test files specified, and documents the results in an file called `results.xml`
+     - **Stage 1:** Starts the process.
+     - **Stage 2**: This tells Jenkins to get the code from the GitHub repo I defined (my forked repo)
+     - **Stage 3:** Sets up a Python virtual environment (venv) and installs all the necessary packages and dependencies of the project’s repo.
+     - **Stage 4:** Activates the virtual environment the Build stage set up for us. Runs any test files specified, and documents the results in an file called `results.xml`
 
 <br/>
 
@@ -77,7 +77,7 @@ The purpose is to demo a minimal implementation of a CI/CD (Continuous Integrati
    - Selected Python 3.7 for the Python platform and selected the necessary instance specifications for this environment.
 
 3. **Deploy Application**:
-   - Created a zip archive of the project. Ran into an error with this, see #errors below.
+   - Created a zip archive of the project. Ran into an error with this, see [Troubleshooting](https://github.com/shafeeshafee/blue-sun-financial?tab=readme-ov-file#troubleshooting) below.
    - Uploaded it to Elastic Beanstalk.
 
 ## Troubleshooting
@@ -137,7 +137,7 @@ While this is demonstrating a simplified CI/CD through Jenkins and deployment vi
 
 ### Benefits at a high level:
 
-- **Simplified Management:** Since Elastic beanstalk is a managed service, it can handle a lot of operational tasks, reducing the workload on the dev teams.
+- **Simplified Management:** Since Elastic Beanstalk is a managed service, it can handle a lot of operational tasks, reducing the workload on the dev teams.
 - **Scalability:** It's easy to scale applications up or down based on demand.
 - **Cost-Effective:** The infrastructure is abstracted, so there isn't a need to manage your infrastructure, developer teams can instead focus on pushing out code. This is useful especially for smaller teams and projects.
 - **Automation:** The service provider handles system wide updates and security patches.
