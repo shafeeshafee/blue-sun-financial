@@ -188,11 +188,3 @@ While this project demonstrates a simplified CI/CD pipeline using Jenkins and de
 **Blue Sun CI/CD Pipeline** successfully demonstrates a straightforward implementation of a CI/CD pipeline using Jenkins and AWS Elastic Beanstalk. This project offers valuable insights into automating software deployment, troubleshooting cloud environments, and leveraging managed services effectively.
 
 While the application itself is minimalistic, the principles and practices applied are scalable to more complex, real-world scenarios. This project underscores the importance of understanding both the advantages and challenges associated with cloud infrastructure in contemporary software development.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For any questions or feedback, please contact [Shafee Shafee](mailto:shafeeshafee@example.com).
